@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="assets/images/logos/tablogo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/body.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="logo"><img src="../assets/images/logos/header-logo.svg" alt=""></ul>
+            <ul id="menu">
+                <a href="/">Home</a>
+                <a href="about">About</a>
+                <a href="services">Services</a>
+                <a href="appointment">Appointment</a>
+                <button onclick="window.location.href='contact'">Contact us</button>
+            </ul>
+            <div class="res-menu">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="toggle">
+                    <div class="bars" id="bar1"></div>
+                    <div class="bars" id="bar2"></div>
+                    <div class="bars" id="bar3"></div>
+                </label>
+            </div>
+        </nav>
+    </header>
+
+    <div class="res-menu-bar">
+        <ul id="menu">
+            <a href="/">Home</a>
+            <a href="about">About</a>
+            <a href="services">Services</a>
+            <a href="appointment">Appointment</a>
+            <a href="">Team</a>
+            <button onclick="window.location.href='contact'">Contact us</button>
+        </ul>
+    </div>
+
+    <script>
+        const menu = document.querySelector(".toggle");
+        const headerul = document.querySelector(".res-menu-bar");
+
+        menu.addEventListener("click", () => {
+            menu.classList.toggle("active");
+            headerul.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>

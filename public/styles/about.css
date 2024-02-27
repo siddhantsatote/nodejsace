@@ -1,0 +1,229 @@
+.container {
+    height: 40vh;
+}
+
+.container #interface {
+    object-fit: fill;
+}
+
+.container #interface img {
+    min-width: 100%;
+    min-height: 120%;
+}
+
+.p-container #p-text {
+    align-items: end;
+}
+
+.slider-item {
+    background-color: transparent;
+}
+
+.arrow {
+    color: var(--ytext-color);
+}
+
+.slider-item img {
+    max-width: 50%;
+    max-height: 110%;
+}
+
+
+
+.t-container {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+}
+
+.t-container #t-cards {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-container #t-cards #t-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.t-container #t-cards #t-card img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    background-color: white;
+}
+
+.t-container #t-cards #t-card .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.t-container #t-cards #t-card .image-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+.c-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 3rem 0rem 0rem 0rem;
+}
+
+.c-container h1{
+    width: 90%;
+    margin: 0;
+    color: var(--ytext-color);
+    text-align: center;
+}
+
+.c-container P{
+    width: 60%;
+    font-family: "PT Serif", serif;
+    color: var(--wtext-color);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.c-container #c-cards {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.c-container #c-cards #c-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 50vh;
+    background-color: var(--bg-color);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.c-container #c-cards #c-card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.c-container .core-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+}
+
+.c-container .core-team #core-team-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 1rem;
+}
+
+.c-container .core-team #core-team-cards #core-team-card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 30%;
+    height: 18vh;
+    border-radius: 10px;
+    background-color: #272727;
+    padding: 1rem;
+    gap: 1rem;
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+
+.c-container .core-team #core-team-cards #core-team-card #member-profile-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: white;
+    overflow: hidden;
+}
+
+.c-container .core-team #core-team-cards #core-team-card #member-profile-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.c-container .core-team #core-team-cards #core-team-card #member-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.c-container .core-team #core-team-cards #core-team-card #member-info h2 {
+    margin: 0;
+}
+
+.c-container .core-team #core-team-cards #core-team-card #member-info p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    width: 100%;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+
+    .p-container #p-text {
+        align-items: center;
+    }
+
+    .t-container #t-cards #t-card img{
+        width: 140%;
+        height: 140%;
+    }
+
+    .c-container #c-cards{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .c-container #c-cards #c-card{
+        width: 100%;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+
+    .c-container .core-team #core-team-cards{
+        flex-direction: column;
+    }
+
+    .c-container .core-team #core-team-cards #core-team-card {
+        width: 90%;
+    }
+}

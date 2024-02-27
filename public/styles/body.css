@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(19, 19, 19);
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --wtext-color: white;
+    --btext-color: black;
+    --ytext-color: #FBC740;
+    --ybg-color: #FBC740;
+    --bbg-color: rgb(32, 32, 32);
+    --bg-color: black;
+    --gbg-color: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    --btn-bg-color: black;
+}

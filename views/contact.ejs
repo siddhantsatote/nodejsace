@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AceEventManagement</title>
+    <link rel="icon" href="assets/images/logos/tablogo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/body.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/appointment.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <%- include('header.ejs') %>
+
+        <div class="container">
+            <div id="interface">
+                <img src="assets/images/bg-imges/interface.jpg" alt="">
+                <div id="interface-text">
+                    <h1 class="animate__fadeIn">Feel Free To Contact</h1>
+                    <h3>Your Partner in Creating Unforgettable Events!</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="contact">
+            <div id="c-body">
+                <div id="c-text">
+                    <div id="c-text-2">
+                        <h3>SKservices</h3>
+                        <p>SKservices Events is a leading corporate event management company operating nationally from Nashik, Mumbai, Delhi, Bangalore, Gurgaon, Pune and other cities in India</p>
+                        <h3>Contact info</h3>
+                        <p>Address: 5th Floor, Shop no.522 Roongta Business Point, Ambad link road, Kamatwade Nashik</p>
+                        <p>Email:<span>skservices@gmail.com</span></p>
+    
+                        <div class="contacts">
+                            <div id="contact-info">
+                                <div id="contact-icon"><ion-icon name="call"></ion-icon></div>
+                                <div id="contact-num">
+                                    <p>WhatsApp</p>
+                                    <a>80878 21091</a>
+                                </div>
+                            </div>
+                            <div id="contact-info">
+                                <div id="contact-icon"><ion-icon name="call"></ion-icon></div>
+                                <div id="contact-num">
+                                    <p>Call us now</p>
+                                    <a>93704 83733</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>              
+                </div>
+    
+    
+    
+                <div id="c-form">
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSfHw0bb9QQAmnAmoq3LA-KjLyoWmB1sobpiJJpHvuKf1ppKZA/formResponse">
+                        <div id="input-2">
+                            <input name="entry.342948221" type="text" placeholder="Name" required>
+                            <input name="entry.1644351551" type="number" placeholder="Number" required>
+                        </div>
+                        <input name="entry.486749454" type="email" placeholder="Email" required>
+                        <input name="entry.380351836" type="text" placeholder="Subject" required>
+                        <textarea name="entry.1301222946" placeholder="Message" required></textarea>
+                        <input id="submit" type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <%- include('footer.ejs') %>
+
+            <script src="js/script.js"></script>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

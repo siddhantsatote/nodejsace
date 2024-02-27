@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AceEventManagement</title>
+    <link rel="icon" href="assets/images/logos/tablogo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/body.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/about.css">
+</head>
+<body>
+    <%- include('header.ejs') %>
+
+        <div class="container">
+            <div id="interface">
+                <img src="assets/images/bg-imges/interface.jpg" alt="">
+                <div id="interface-text">
+                    <h1 class="animate__fadeIn">Services We Provide</h1>
+                    <h3>Your Partner in Creating Unforgettable Events!</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="s-container">
+            <h1>Our Services</h1>
+            <p> Welcome to Ace Event Management, where we transform your vision into unforgettable events. Our
+                comprehensive
+                event management services cover everything from meticulous planning and venue selection to tantalizing
+                catering, captivating entertainment, and breathtaking decor.</p>
+            <div id="s-cards">
+                <div id="s-card">
+                    <div id="s-icon"><ion-icon name="today-outline"></ion-icon></div>
+                    <div id="s-text">
+                        <h3>Event Planning</h3>
+                        <p>Leave the details to us! From concept to execution, we handle every aspect of event planning,
+                            ensuring a stress-free and enjoyable experience for our clients.</p>
+                    </div>
+                </div>
+                <div id="s-card">
+                    <div id="s-icon"><ion-icon name="navigate-circle-outline"></ion-icon></div>
+                    <div id="s-text">
+                        <h3>Venue Selection</h3>
+                        <p>Finding the perfect venue is crucial for a successful event. Our experts will scout and
+                            secure the ideal location that aligns with your vision and accommodates your guests
+                            comfortably.</p>
+                    </div>
+                </div>
+                <div id="s-card">
+                    <div id="s-icon"><ion-icon name="restaurant-outline"></ion-icon></div>
+                    <div id="s-text">
+                        <h3>Catering and Hospitality</h3>
+                        <p>Delight your guests with exquisite cuisine and impeccable service. Our catering partners
+                            offer a diverse range of menu options to suit any palate, making your event an
+                            unforgettable.</p>
+                    </div>
+                </div>
+                <div id="s-card">
+                    <div id="s-icon"><ion-icon name="happy-outline"></ion-icon></div>
+                    <div id="s-text">
+                        <h3>Entertainment</h3>
+                        <p>From live performances to engaging activities, we bring your event to life with top-notch
+                            entertainment options that cater to your audience and theme.</p>
+                    </div>
+                </div>
+                <div id="s-card">
+                    <div id="s-icon"><ion-icon name="logo-designernews"></ion-icon></div>
+                    <div id="s-text">
+                        <h3>Decor and Design</h3>
+                        <p>Create an ambiance that resonates with your event's theme. Our skilled designers will
+                            transform any space into a captivating and visually stunning environment.</p>
+                    </div>
+                </div>
+                <div id="s-card">
+                    <div id="s-icon"><ion-icon name="people-outline"></ion-icon></div>
+                    <div id="s-text">
+                        <h3>Bouncer and Security</h3>
+                        <p>Ensure the safety and security of your event with our trained bouncers and security
+                            personnel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%- include('footer.ejs') %>
+
+        <script src="js/script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AceEventManagement</title>
+    <link rel="icon" href="assets/images/logos/tablogo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/body.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/about.css">
+</head>
+
+<body>
+    <%- include('header.ejs') %>
+
+        <div class="container">
+            <div id="interface">
+                <img src="assets/images/bg-imges/interface.jpg" alt="">
+                <div id="interface-text">
+                    <h1 class="animate__fadeIn">About Company & Team</h1>
+                    <h3>Your Partner in Creating Unforgettable Events!</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-container">
+            <div id="p-text">
+                <h1>About Us</h1>
+                <p>At Ace Event Management, where we transform ordinary events into extraordinary experiences. As a
+                    leading event management company, our mission is to bring your vision to life, creating moments that
+                    linger in the hearts and minds of your guests.
+                    Founded on the belief that every celebration deserves to be exceptional, Ace Event Management was
+                    established with a passion for crafting seamless and memorable events. Our journey began with a
+                    commitment to excellence, attention to detail, and a genuine desire to make every event truly
+                    special. </p>
+            </div>
+            <div class="slider-container">
+                <div class="slider-wrapper" id="slider">
+                    <div class="slider-item item1"><img src="assets/images/core-team-img/sushant.svg" alt="">
+                    </div>
+                    <div class="slider-item item2"><img src="assets/images/core-team-img/siddhant.svg" alt="">
+                    </div>
+                    <div class="slider-item item3"><img src="assets/images/core-team-img/vishlesha.svg" alt=""></div>
+                    <div class="slider-item item4"><img src="assets/images/core-team-img/pratik.svg" alt=""></div>
+                    <div class="slider-item item5"><img src="assets/images/logos/header-logo.svg" alt=""></div>
+                    <div class="slider-item item6"><img src="assets/images/logos/skgroup.svg" alt=""></div>
+                </div>
+                <div class="arrow left" onclick="rotateSlider(1)">❮</div>
+                <div class="arrow right" onclick="rotateSlider(-1)">❯</div>
+            </div>
+        </div>
+
+        <div class="t-container">
+            <div id="t-cards">
+                <div id="t-card">
+                    <div class="carousel">
+                        <div class="image-container" id="images">
+                            <img src="assets/images/our work/maccia-1.jpg" alt="first-image" />
+                            <img src="assets/images/our work/udyogshikar.jpg" alt="second-image" />
+                            <img src="assets/images/our work/nima-2.jpg" alt="third-image" />
+                            <img src="assets/images/our work/naredko-events.JPG" alt="fourth-image" />
+                            <img src="assets/images/events/DSC_9877.JPG" alt="" />
+                            <img src="assets/images/events/dyogshikhar-4.jpg" alt="" />
+                            <img src="assets/images/events/maccia-1.jpg" alt="" />
+                            <img src="assets/images/events/maccia-2.jpg" alt="" />
+                            <img src="assets/images/events/maccia.jpg" alt="" />
+                            <img src="assets/images/events/naredko-1.jpg" alt="" />
+                            <img src="assets/images/events/naredko-2.jpg" alt="" />
+                            <img src="assets/images/events/naredko-3.jpg" alt="" />
+                            <img src="assets/images/events/naredko-4.jpg" alt="" />
+                            <img src="assets/images/events/naredko-5.JPG" alt="" />
+                            <img src="assets/images/events/naredko-6.JPG" alt="" />
+                            <img src="assets/images/events/nima-2.jpg" alt="" />
+                            <img src="assets/images/events/nima.jpg" alt="" />
+                            <img src="assets/images/events/shilpa.jpg" alt="" />
+                            <img src="assets/images/events/udyogshikar.jpg" alt="" />
+                            <img src="assets/images/events/udyogshikhar-3.jpg" alt="" />
+                            <img src="assets/images/events/udyogshikhar-6.jpg" alt="" />
+                            <img src="assets/images/events/uyogshikarteam.jpg" alt="" />
+                            <img src="assets/images/events/yourh.JPG" alt="" />
+                            <img src="assets/images/events/youth-2.JPG" alt="" />
+                            <img src="assets/images/events/youth-3.jpg" alt="" />
+                            <img src="assets/images/events/youth-4.jpg" alt="" />
+                            <img src="assets/images/events/youth.JPG" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="c-container">
+            <h1>Core Team</h1>
+            <p>At Ace Event Management, our success is driven by the talent, dedication, and expertise of our core team
+                members. Together, we form a dynamic group of professionals committed to exceeding expectations and
+                delivering unparalleled service.</p>
+            <div id="c-cards">
+                <div id="c-card"><img src="assets/images/core-team-img/sushant.svg" alt=""></div>
+                <div id="c-card"><img src="assets/images/core-team-img/siddhant.svg" alt=""></div>
+                <div id="c-card"><img src="assets/images/core-team-img/vishlesha.svg" alt=""></div>
+                <div id="c-card"><img src="assets/images/core-team-img/pratik.svg" alt=""></div>
+            </div>
+
+            <div class="core-team">
+                <div id="core-team-cards">
+                    <div id="core-team-card">
+                        <div id="member-profile-img"><img src="assets/images/core-team-img/siddharth.png" alt=""></div>
+                        <div id="member-info">
+                            <h2>Siddharth Dongre</h2>
+                            <p>Core Team Member</p>
+                            <a href="">Linkedin</a>
+                        </div>
+                    </div>
+                    <div id="core-team-card">
+                        <div id="member-profile-img"><img src="assets/images/core-team-img/saloni (2).png" alt=""></div>
+                        <div id="member-info">
+                            <h2>Saloni Shinde</h2>
+                            <p>Core Team Member</p>
+                            <a href="">Linkedin</a>
+                        </div>
+                    </div>
+                    <div id="core-team-card">
+                        <div id="member-profile-img"><img src="assets/images/core-team-img/rushikesh.png" alt=""></div>
+                        <div id="member-info">
+                            <h2>Rushikesh Jadhav</h2>
+                            <p>Core Team Member</p>
+                            <a href="">Linkedin</a>
+                        </div>
+                    </div>
+                    <div id="core-team-card">
+                        <div id="member-profile-img"><img src="assets/images/core-team-img/karan.png" alt=""></div>
+                        <div id="member-info">
+                            <h2>Karan Thakrani</h2>
+                            <p>Core Team Member</p>
+                            <a href="">Linkedin</a>
+                        </div>
+                    </div>
+                    <div id="core-team-card">
+                        <div id="member-profile-img"><img src="assets/images/core-team-img/abhishek.jpg" alt=""></div>
+                        <div id="member-info">
+                            <h2>Abhishek Bhosale</h2>
+                            <p>Core Team Member</p>
+                            <a href="">Linkedin</a>
+                        </div>
+                    </div>
+                    <div id="core-team-card">
+                        <div id="member-profile-img"><img src="assets/images/core-team-img/aniket.jpg" alt=""></div>
+                        <div id="member-info">
+                            <h2>Aaniket Gumbade</h2>
+                            <p>Core Team Member</p>
+                            <a href="">Linkedin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%- include('footer.ejs') %>
+
+        <script src="js/script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
