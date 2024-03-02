@@ -407,8 +407,26 @@
     }
 
     .s-container #s-card {
-        height: 50vh;
+        flex-direction: row;
+        height: 25vh;
         width: 100%;
+        gap: 10px;
+    }
+
+    .s-container #s-card #s-icon{
+        width: 30%;
+        height: 50%;
+    }
+
+    .s-container #s-card #s-text{
+        width: 70%;
+        align-items: start;
+    }
+
+    .s-container #s-card #s-text p {
+        text-align: left;
+        font-size: 15px;
+        width: 95%;
     }
 
     .w-container {
