@@ -384,6 +384,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .container{
+        height: 30vh;
+    }
+
     .container #interface h1 {
         text-align: center;
         font-size: 1.5rem;
