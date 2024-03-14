@@ -11,7 +11,14 @@
     min-height: 120%;
 }
 
+.p-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .p-container #p-text {
+    width: 50%;
     align-items: end;
 }
 
@@ -200,7 +207,18 @@
 
 @media screen and (max-width: 768px) {
 
+    .p-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .p-container #about-img{
+        display: none;
+    }
+
     .p-container #p-text {
+        width: 95%;
         align-items: center;
     }
 

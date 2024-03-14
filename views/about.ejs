@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/styles/index.css">
     <link rel="stylesheet" href="/styles/about.css">
 </head>
+
 <body>
     <%- include('header.ejs') %>
 
@@ -35,19 +36,8 @@
                     commitment to excellence, attention to detail, and a genuine desire to make every event truly
                     special. </p>
             </div>
-            <div class="slider-container">
-                <div class="slider-wrapper" id="slider">
-                    <div class="slider-item item1"><img src="assets/images/core-team-img/sushant.svg" alt="">
-                    </div>
-                    <div class="slider-item item2"><img src="assets/images/core-team-img/siddhant.svg" alt="">
-                    </div>
-                    <div class="slider-item item3"><img src="assets/images/core-team-img/vishlesha.svg" alt=""></div>
-                    <div class="slider-item item4"><img src="assets/images/core-team-img/pratik.svg" alt=""></div>
-                    <div class="slider-item item5"><img src="assets/images/logos/header-logo.svg" alt=""></div>
-                    <div class="slider-item item6"><img src="assets/images/logos/skgroup.svg" alt=""></div>
-                </div>
-                <div class="arrow left" onclick="rotateSlider(1)">❮</div>
-                <div class="arrow right" onclick="rotateSlider(-1)">❯</div>
+            <div id="about-img">
+                <img src="assets/images/logos/header-logo.svg" alt="">
             </div>
         </div>
 
@@ -120,7 +110,7 @@
                         </div>
                     </div>
                     <div id="core-team-card">
-                        <div id="member-profile-img"><img src="assets/images/core-team-img/rushikesh.png" alt=""></div>
+                        <div id="member-profile-img"><img src="assets/images/core-team-img/rushi.png" alt=""></div>
                         <div id="member-info">
                             <h2>Rushikesh Jadhav</h2>
                             <p>Core Team Member</p>
@@ -143,22 +133,14 @@
                             <a href="">Linkedin</a>
                         </div>
                     </div>
-                    <div id="core-team-card">
-                        <div id="member-profile-img"><img src="assets/images/core-team-img/aniket.jpg" alt=""></div>
-                        <div id="member-info">
-                            <h2>Aaniket Gumbade</h2>
-                            <p>Core Team Member</p>
-                            <a href="">Linkedin</a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
 
         <%- include('footer.ejs') %>
 
-        <script src="js/script.js"></script>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script src="js/script.js"></script>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
             <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
             <script src="//code.tidio.co/vydxjcj0y4bcymojtopo2lnhibdpcagd.js" async></script>
 
