@@ -243,5 +243,6 @@
 
     .c-container .core-team #core-team-cards #core-team-card {
         width: 90%;
+        height: 14vh;
     }
 }
